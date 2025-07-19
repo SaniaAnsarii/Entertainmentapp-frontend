@@ -11,7 +11,7 @@ import { TbDeviceTvOld } from "react-icons/tb";
 import userImage from '../assets/user-removebg-preview.png'
 import userLogo from '../assets/user-removebg-preview.png'
 import MyContext from '../context/MyContext'
-import NavbarMenu from "./CssComponents/NavbarMenu.jsx";
+
 
 // Header component
 const Header = () => {

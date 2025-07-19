@@ -18,6 +18,7 @@ import Header from './components/Header'
 import SearchBar from './components/SearchBar'
 import SearchResult from './components/SearchResult'
 import Details from './components/MediaDetails/Details'
+import Footer from './components/Footer'
 
 // importing auth components 
 import Login from "./components/AuthComponents/Login"
@@ -74,6 +75,9 @@ function App() {
           <Route path="*" element={<Error404 />} />
         </Routes>
       </div>
+
+      {/* Footer */}
+      <Footer />
 
       {toast && <Toast />}
     </div>

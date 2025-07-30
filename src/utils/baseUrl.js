@@ -1,3 +1,2 @@
-const baseUrl = "https://entertainment-app-backend-se8i.onrender.com/api" || "http://localhost:8000/api"
-
+const baseUrl = import.meta.env.VITE_API_BASE_URL;
 export default baseUrl;
